@@ -1,0 +1,100 @@
+.confirm__content {
+    margin: 0 auto;
+    padding: 30px 15px;
+    max-width: 1230px;
+}
+
+.confirm__heading {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.form {
+    margin: 0 auto;
+    width: 70%;
+    text-align: center;
+}
+
+.confirm-table {
+    border: none
+}
+
+.confirm-table__inner {
+    width: 100%;
+}
+
+.confirm-table__header {
+    padding: 40px;
+    width: 30%;
+    font-weight: bold;
+}
+
+.confirm-table__text {
+    padding: 15px;
+}
+
+.confirm-table__text input {
+    width: 100%;
+    outline: none;
+    border: none;
+}
+
+.confirm-table__text--name {
+    display: flex;
+    padding: 15px;
+    width: 120px;
+    height: 105px;
+}
+
+.confirm-table__text--name input {
+    width: 100%;
+    outline: none;
+    border: none;
+}
+
+.confirm-table__radio {
+    padding: 15px;
+    text-align: center;
+}
+
+.confirm-table__radio input {
+    width: 100%;
+    outline: none;
+    border: none;
+}
+
+.confirm-table__radio p {
+    width: 100%;
+    text-align: left;
+    font-size: 14px;
+}
+
+.form__button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.form__button-submit {
+    padding: 10px;
+    width: 15%;
+    height: 40px;
+    border: none;
+    border-radius: 3px;
+    background: #000;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.form__button-correct {
+    padding: 5px;
+    font-size: 12px;
+    color: #000;
+    background-color: #fff;
+    outline: none;
+    border: none;
+    text-decoration: underline;
+}
